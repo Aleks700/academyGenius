@@ -1,0 +1,39 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+$btnOrangeColor: #fd7a2c;
+
+.nav{
+
+  a{
+    font-size: 1.5rem;
+  }
+}
+section{
+  min-height: 100vh;
+  background-color: antiquewhite;
+  border:  black 3px solid ;
+}
+.img-block{
+  max-width: 7rem;
+}
+
+#firstSection{
+    margin-top: 5rem;
+}
+.btn-send{
+  box-sizing: border-box;
+  background-color: $btnOrangeColor;
+  border: 1px solid;
+  color: white;
+  border-radius: 1.5em;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-color: #e55702 #da5302 #cb4d02 #da5302;
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 20%), 0 1px 2px rgb(0 0 0 / 7%);
+  text-shadow: 0 1px 0 rgb(0 0 0 / 5%);
+  padding-top: auto;
+  padding-bottom: auto;
+}
