@@ -5,6 +5,11 @@
 }
 $btnOrangeColor: #fd7a2c;
 
+
+
+p{
+  margin-bottom:0;
+}
 .nav{
 
   a{
@@ -12,16 +17,22 @@ $btnOrangeColor: #fd7a2c;
   }
 }
 section{
-  min-height: 100vh;
-  background-color: antiquewhite;
+  min-height: 70vh;
+  // background-color: antiquewhite;
   border:  black 3px solid ;
 }
 .img-block{
-  max-width: 7rem;
+  max-width: 4rem;
 }
 
-#firstSection{
-    margin-top: 5rem;
+.SliderSection{
+  min-height: inherit;
+    margin-top: 1rem;
+  div{
+   
+    // max-height: 70vh;
+    
+  }
 }
 .btn-send{
   box-sizing: border-box;
@@ -36,4 +47,26 @@ section{
   text-shadow: 0 1px 0 rgb(0 0 0 / 5%);
   padding-top: auto;
   padding-bottom: auto;
+}
+
+.course-item{
+  
+ 
+  padding-right: 10px;
+  margin-bottom: 10px;
+  margin-bottom: 30px;
+}
+.course-item-in{
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  min-height: 10rem;
+  max-height: 15rem;
+  overflow: hidden;
+  background-color: white;
+  border-top: 10px solid #EE7C3C;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgb(0 0 0 / 15%);
+
 }
