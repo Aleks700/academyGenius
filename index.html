@@ -1,132 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
-</head>
-<body>
-    <header class="container-md d-flex   justify-content-between align-items-md-center">
-        <div class="img-block"> 
-            <img src="./img/209814082_957005868433242_3731837973254162978_n.jpg"  class="img-fluid" alt="">
+  </head>
+  <body>
+    <header
+      class="container-md d-flex justify-content-between align-items-md-center"
+    >
+      <div class="img-block">
+        <img
+          src="./img/209814082_957005868433242_3731837973254162978_n.jpg"
+          class="img-fluid"
+          alt=""
+        />
+      </div>
+      <nav class="container-md d-none">
+        <a href="#">Hello world</a>
+        <a href="#">Наши курсы</a>
+        <a href="#">О нас</a>
+        <a href="#formBlock">Подать заявку</a>
+      </nav>
+      <div class="d-flex">
+        <div class="d-flex align-items-center me-4">
+          <p>+7 (777) 777-77-77</p>
         </div>
-        <nav class="container-md d-none ">
-            <a href="#">Hello world</a>
-            <a href="#">Наши курсы</a>
-            <a href="#">О нас</a>
-            <a href="#formBlock">Подать заявку</a>
-        </nav>
-        <div class="d-flex ">
-            <div class="d-flex align-items-center me-4">      <p>+7 (777) 777-77-77</p></div>
-  
-            <div class="d-flex">  
-                <a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2F%2B77787981078&e=ATPCq5lwfsLlVsUjBoJO3utUjRdOx9_prm-_Ncef8hGVNeumzJqeDTUYGdMdF3NqdbA1ajq0R_3wZgtT0m-J-eU&s=1"> <div class="img-block">
-                    <img src="./img/logo/icons8-whatsapp.svg" alt="" class="img-fluid">
-                </div></a>
-                <a href="https://www.instagram.com/agenio_nursultan/">  <div class="img-block">
-                    <img src="./img/icons8-instagram-cloud/icons8-instagram-512.svg" alt="" class="img-fluid">
-                    </div></a>
-            </div>
+
+        <div class="d-flex">
+          <a
+            href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2F%2B77787981078&e=ATPCq5lwfsLlVsUjBoJO3utUjRdOx9_prm-_Ncef8hGVNeumzJqeDTUYGdMdF3NqdbA1ajq0R_3wZgtT0m-J-eU&s=1"
+          >
+            <div class="img-block">
+              <img
+                src="./img/logo/icons8-whatsapp.svg"
+                alt=""
+                class="img-fluid"
+              /></div
+          ></a>
+          <a href="https://www.instagram.com/agenio_nursultan/">
+            <div class="img-block">
+              <img
+                src="./img/icons8-instagram-cloud/icons8-instagram-512.svg"
+                alt=""
+                class="img-fluid"
+              /></div
+          ></a>
         </div>
-       
-      
-    
+      </div>
     </header>
-    <section class="SliderSection  d-md-block">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-          
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="4000">
-                <img src="./img/top_bg.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Подготовка к школе</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
-                    
-                </div>
-              
-              </div>
-                <div class="carousel-item" data-bs-interval="4000">
-                    <img src="./img/top_bg2.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Робототехника</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                 
-                </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="4000">
-                <img src="./img/top_bg3.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Шахматы</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
+    <section class="SliderSection d-md-block">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="4000">
+            <img src="./img/top_bg.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Подготовка к школе</h3>
+              <p>Обучение детей для обученения в школе</p>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              </div>
           </div>
-       
-
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="./img/top_bg2.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Робототехника</h3>
+              <p>Создание роботов в конструкторе LEGO и запуск программ</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="./img/top_bg3.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Шахматы</h3>
+              <p>Обучение шахматам и участие в турнирах по разрядам</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+      </div>
     </section>
-    <section id='OurCourse'>
-        <div class="container">
-            <h2>Наши курсы</h2>
+
+    <section class="secondBlock d-flex flex-column flex-md-row">
+      <div class="d-flex justify-content-center align-items-center col-md-6">
+        <div>
+          <h1>Академия гениев <br /></h1>
+          <h2>Международная развивающая школа для детей</h2>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center align-items-center col-md-6">
+        <div>
+          Мы занимаемся обучением робототехнике и программированию детей от 6 до
+          18 лет, в том числе детей с ограниченными возможностями здоровья. И мы
+          верим, что КАЖДЫЙ РЕБЕНОК ГЕНИАЛЕН. Это истина, которая регулярно
+          доказывается. А все, что для этого нужно — лишь создать условия для
+          раскрытия потенциала юного таланта.
+        </div>
+      </div>
+    </section>
+
+    <section id="OurCourse">
+      <div class="container">
+        <h1 class="ms-2">Наши курсы</h1>
         <div class="d-flex flex-wrap">
-            <div class="col-md-4 col-sm-6 col-12 course-item">
-                <div class="course-item-in">
-                    <div>
-                        <h2>Робототехника</h2>
-                    </div>
-                   
+          <div class="col-md-4 col-sm-6 col-12 course-item">
+            <div class="course-item-in">
+              <div>
+                <h2>Робототехника</h2>
+              </div>
 
-                   <div>
-                    <p>Изучение создания роботов</p>
-                   </div>
-                
-                
-                </div>
-                
+              <div>
+                <p>Изучение создания роботов</p>
+              </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-12 course-item">
-                <div class="course-item-in"><h3>Программирование</h3></div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 course-item">
+            <div class="course-item-in">
+              <h3>Программирование</h3>
+              <p>Написания игр на Roblox, Scratch</p>
             </div>
-            <div class="col-md-4 col-sm-6 col-12 course-item">
-                <div class="course-item-in"><h3>Творчество</h3></div>
-                
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 course-item">
+            <div class="course-item-in">
+              <h3>Творчество</h3>
+              <p>Проведение мастер классов по различным направлениям</p>
             </div>
-            <div class="col-md-4 col-sm-6 col-12 course-item">
-                <div class="course-item-in"><h3>Подготовка к школе</h3></div>
-                
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 course-item">
+            <div class="course-item-in">
+              <h3>Подготовка к школе</h3>
+              <p>Занятия по школьной программе для улучшения оценок</p>
             </div>
-            <div class="col-md-4 col-sm-6 col-12 course-item">
-                <div class="course-item-in"><h3>Кубик рубика</h3></div>
-                
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 course-item">
+            <div class="course-item-in">
+              <h3>Кубик рубика</h3>
+              <p>Обучение сборке кубика рубика</p>
             </div>
-          
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 course-item">
+            <div class="course-item-in">
+              <h3>Шахматы</h3>
+              <p>Обучение шахматам и участие в турнирах по разрядам</p>
+            </div>
+          </div>
         </div>
-        
-         
-        </div>
-        
+      </div>
     </section>
-    <footer>
-        <div>© Академия Гениев</div>
-        <div>+7777777777</div>
-        <div>Мангелик Ел 29</div>
+    <footer
+      class="d-flex flex-column justify-content-center align-items-center"
+    >
+      <div>© Академия Гениев</div>
+      <div>+7777777777</div>
+      <div>Мангелик Ел 29</div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
